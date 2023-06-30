@@ -10,10 +10,18 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="http://www.jakubdotlacil.com/theme/stylesheet/style.min.css">
+    <link rel="stylesheet/less" type="text/css" href="http://www.jakubdotlacil.com/theme/stylesheet/style.less">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js" type="text/javascript"></script>
 
+    <link id="dark-theme-style" rel="stylesheet" type="text/css"
+          media="(prefers-color-scheme: dark)"
+    href="http://www.jakubdotlacil.com/theme/stylesheet/dark-theme.min.css">
 
+    <link id="pygments-dark-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: dark)"
+          href="http://www.jakubdotlacil.com/theme/pygments/monokai.min.css">
     <link id="pygments-light-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
           href="http://www.jakubdotlacil.com/theme/pygments/github.min.css">
 
 
@@ -48,7 +56,7 @@
 
 
 </head>
-<body class="light-theme">
+<body >
 
 <aside>
   <div>
@@ -68,7 +76,7 @@
 
             <li>
               <a target="_self"
-                 href="http://www.jakubdotlacil.com/pages/contact.html#contact">
+                 href="http://www.jakubdotlacil.com/pages/contact.html">
                 contact
               </a>
             </li>
@@ -90,14 +98,20 @@
 </aside>
   <main>
 
+<nav>
+  <a href="http://www.jakubdotlacil.com/">Home</a>
+
+
+
+</nav>
 
 
 
 <article>
   <header>
-    <h2><a href="http://www.jakubdotlacil.com/publications.html#publications">publications</a></h2>
+    <h2><a href="http://www.jakubdotlacil.com/publications.html">publications</a></h2>
     <p>
-      Posted on ma 16 augustus 2021 in <a href="http://www.jakubdotlacil.com/category/publications.html">publications</a>
+      Posted on August 16, 2021 in <a href="http://www.jakubdotlacil.com/category/misc.html">misc</a>
 
 
     </p>
@@ -109,7 +123,7 @@
 <p>This paper develops a novel psycholinguistic parser and tests it against experimental and corpus reading data. The parser builds on the recent research into memory structures, which argues that memory retrieval is content-addressable and cue-based. It is shown that the theory …</p></div>
         <br>
         <a class="btn"
-           href="http://www.jakubdotlacil.com/publications.html#publications">
+           href="http://www.jakubdotlacil.com/publications.html">
           Continue reading
         </a>
   </div>
@@ -117,9 +131,9 @@
 </article>
 <article>
   <header>
-    <h2><a href="http://www.jakubdotlacil.com/texty.html#texty">texty</a></h2>
+    <h2><a href="http://www.jakubdotlacil.com/texty.html">texty</a></h2>
     <p>
-      Posted on wo 10 juni 2020 in <a href="http://www.jakubdotlacil.com/category/textycz.html">texty(cz)</a>
+      Posted on June 10, 2020 in <a href="http://www.jakubdotlacil.com/category/misc.html">misc</a>
 
 
     </p>
@@ -137,7 +151,7 @@
 <p>Pár vybraných povídek z konce devadesátých let …</p></div>
         <br>
         <a class="btn"
-           href="http://www.jakubdotlacil.com/texty.html#texty">
+           href="http://www.jakubdotlacil.com/texty.html">
           Continue reading
         </a>
   </div>
@@ -145,9 +159,9 @@
 </article>
 <article>
   <header>
-    <h2><a href="http://www.jakubdotlacil.com/nwo-project.html#nwo-project">NWO project</a></h2>
+    <h2><a href="http://www.jakubdotlacil.com/nwo-project.html">NWO project</a></h2>
     <p>
-      Posted on ma 01 juli 2019 in <a href="http://www.jakubdotlacil.com/category/nwo-project.html">NWO project</a>
+      Posted on July 01, 2019 in <a href="http://www.jakubdotlacil.com/category/misc.html">misc</a>
 
 
     </p>
@@ -157,7 +171,7 @@
 <p>Language does not come to us instantaneously, but instead in the shape of a stream of input (a stream of written words or spoken sounds). When we make sense of linguistic input, we incrementally build an interpretation. This project studies the …</p></div>
         <br>
         <a class="btn"
-           href="http://www.jakubdotlacil.com/nwo-project.html#nwo-project">
+           href="http://www.jakubdotlacil.com/nwo-project.html">
           Continue reading
         </a>
   </div>
@@ -165,9 +179,9 @@
 </article>
 <article>
   <header>
-    <h2><a href="http://www.jakubdotlacil.com/programming.html#programming">programming</a></h2>
+    <h2><a href="http://www.jakubdotlacil.com/programming.html">programming</a></h2>
     <p>
-      Posted on ma 01 juli 2019 in <a href="http://www.jakubdotlacil.com/category/programming.html">programming</a>
+      Posted on July 01, 2019 in <a href="http://www.jakubdotlacil.com/category/misc.html">misc</a>
 
 
     </p>
@@ -181,7 +195,7 @@
 <p>The …</p></div>
         <br>
         <a class="btn"
-           href="http://www.jakubdotlacil.com/programming.html#programming">
+           href="http://www.jakubdotlacil.com/programming.html">
           Continue reading
         </a>
   </div>
@@ -196,6 +210,14 @@
 <p>&copy;  </p>
 <p>
 Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+  <span class="footer-separator">|</span>
+  Switch to the <a href="javascript:void(0)" onclick="theme.switch(`dark`)">dark</a> | <a href="javascript:void(0)" onclick="theme.switch(`light`)">light</a> | <a href="javascript:void(0)" onclick="theme.switch(`browser`)">browser</a> theme
+  <script id="dark-theme-script"
+          src="http://www.jakubdotlacil.com/theme/dark-theme/dark-theme.min.js"
+          data-enable-auto-detect-theme="True"
+          data-default-theme="light"
+          type="text/javascript">
+  </script>
 </p></footer>  </main>
 
 <script type="application/ld+json">
